@@ -72,7 +72,7 @@ def main():
     }
 
     weeks = list(content_dict[selected_option].keys())
-    selected_week = st.selectbox("Select a Week", weeks)
+    selected_week = st.selectbox("Select a Week", weeks, key="week_selectbox")
 
     if selected_week:
         content_items = content_dict[selected_option][selected_week]
