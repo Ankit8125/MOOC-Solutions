@@ -57,6 +57,7 @@ def main():
             "Week 6": ["A", "A", "B", "D", "A", "B", "C", "A", "A", "A"],
             "Week 7": ["C", "A", "A", "B", "C", "D", "B", "A", "A", "B"],
             "Week 8": ["C", "B", "A", "A", "B", "C", "D", "B", "C", "B"],
+            "Week 9": ["D", "A", "C", "A", "D", "A", "A", "A", "B", "A"],
         },
         "Psychology of Learning": {
             "Week 1": ["D", "D", "A", "A", "C", "A", "A", "D", "D", "C"],
