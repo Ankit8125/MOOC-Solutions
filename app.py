@@ -56,8 +56,11 @@ def main():
             "Week 5": ["A", "B", "B", "C", "B", "C", "D", "A", "B", "B"],
             "Week 6": ["A", "A", "B", "D", "A", "B", "C", "A", "A", "A"],
             "Week 7": ["C", "A", "A", "B", "C", "D", "B", "A", "A", "B"],
-            "Week 8": ["C", "B", "A", "A", "B", "C", "D", "B", "C", "B"],
+            "Week 8": ["C", "A", "A", "A", "B", "C", "D", "B", "C", "B"],
             "Week 9": ["D", "A", "C", "A", "D", "A", "A", "A", "B", "A"],
+            "Week 10": ["B", "C", "C", "B", "A", "B", "B", "A", "B", "A"],
+            "Week 11": ["Aaram se wait karna brooo! Jab aayega toh daal dunga :P"],
+            "Week 12": ["Abb ye thoda zada ho raha hai broo! Bola na wait karne ko 🥲! Jab aayega toh daal dunga :P"],
         },
         "Psychology of Learning": {
             "Week 1": ["D", "D", "A", "A", "C", "A", "A", "D", "D", "C"],
