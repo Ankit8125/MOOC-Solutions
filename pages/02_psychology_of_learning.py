@@ -78,10 +78,9 @@ def main():
         st.write(f"Answers for {selected_week}:")
         st.write(content_display)
         
-    # Add sidebar content
     st.sidebar.markdown('<br>' * 3, unsafe_allow_html=True)
     st.sidebar.image("qr.jpeg", width=300)
-    st.sidebar.markdown('<div style="text-align: center;">Buy me a coffee ☕</div>', unsafe_allow_html=True)
+    st.sidebar.markdown('<div style="text-align: center;">Buy me a coffee ☕ :)</div>', unsafe_allow_html=True)
     
     create_footer()
 
