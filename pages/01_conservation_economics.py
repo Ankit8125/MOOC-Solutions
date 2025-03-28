@@ -65,8 +65,8 @@ def main():
         "Week 8": ["C", "A", "A", "A", "B", "C", "D", "B", "C", "B"],
         "Week 9": ["D", "A", "C", "A", "D", "A", "A", "A", "B", "A"],
         "Week 10": ["B", "C", "C", "B", "A", "B", "B", "A", "B", "A"],
-        "Week 11": ["Aaram se wait karna brooo! Jab aayega toh daal dunga :P"],
-        "Week 12": ["Abb ye thoda zada ho raha hai broo! Bola na wait karne ko 🥲! Jab aayega toh daal dunga :P"],
+        "Week 11": ["B", "C", "B", "A", "B", "B", "C", "C", "A", "D"],
+        "Week 12": ["Aaram se wait karna brooo! Jab aayega toh daal dunga :P"],
     }
 
     weeks = list(content_dict.keys())
