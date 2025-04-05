@@ -621,7 +621,57 @@ def main():
 # ),
 
 #         # Week 10
- 
+# Question(
+# "“an absolute level of income set by the government for each family size below which a family is deemed to be in poverty” is known as",
+# ["deprivation line", "poverty line", "deprivation index", "poverty index"],
+# "poverty line"
+# ),
+# Question(
+# "Absolute poverty depends",
+# ["on income but not on access to social services", "not on income but on access to social services", "on income and on access to social services", "neither on income nor on access to social services"],
+# "on income and on access to social services"
+# ),
+# Question(
+# "“the equipment and structures used to produce goods and services” is the definition of",
+# ["tools", "machinery", "capital", "factors of production"],
+# "capital"
+# ),
+# Question(
+# "“above-equilibrium wages paid by firms to increase worker productivity” are known as",
+# ["compensating wage", "efficiency wage", "productivity wage", "retention wage"],
+# "efficiency wage"
+# ),
+# Question(
+# "“government policy aimed at protecting people against the risk of adverse events” is",
+# ["Social protection", "Social insurance", "Social security", "Socialism"],
+# "Social insurance"
+# ),
+# Question(
+# "“a difference in wages that arises to offset the non-monetary characteristics of different jobs” is known as",
+# ["differentiating differential", "compensating differential", "differentiating integral", "compensating integral"],
+# "compensating differential"
+# ),
+# Question(
+# "For a competitive and profit-maximising firm,",
+# ["each factor's rental price < the value of the marginal product for that factor", "each factor's rental price = the value of the marginal product for that factor", "each factor's rental price > the value of the marginal product for that factor", "each factor's rental price = the value of the average product for that factor"],
+# "each factor's rental price = the value of the marginal product for that factor"
+# ),
+# Question(
+# "“a condition characterised by severe deprivation of basic human needs, including food, safe drinking water, sanitation facilities, health, shelter, education and information” is known as",
+# ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
+# "absolute poverty"
+# ),
+# Question(
+# "“a condition where a household's income is lower than the median income in the particular country” is known as",
+# ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
+# "relative poverty"
+# ),
+# Question(
+# "“the increase in the amount of output from an additional unit of labor” is",
+# ["marginal product of labour", "marginal product of input", "average product of labour", "average product of input"],
+# "marginal product of labour"
+# ),
+
 #         # Week 11
  
 #         # Week 12
