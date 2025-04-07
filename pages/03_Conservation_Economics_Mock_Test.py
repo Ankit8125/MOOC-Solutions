@@ -676,72 +676,83 @@ def main():
  
 #         # Week 12
  
-#     ]
+    # ]
     
-#     if 'current_question' not in st.session_state:
-#         st.session_state.current_question = 0
-#         st.session_state.answers = {}
-#         st.session_state.score = 0
-#         st.session_state.test_completed = False
+    # if 'current_question' not in st.session_state:
+    #     st.session_state.current_question = 0
+    #     st.session_state.answers = {}
+    #     st.session_state.score = 0
+    #     st.session_state.test_completed = False
     
-#     if not st.session_state.test_completed:
-#         question = MOCK_TEST_QUESTIONS[st.session_state.current_question]
-#         st.write(f"Question {st.session_state.current_question + 1}/{len(MOCK_TEST_QUESTIONS)}:")
-#         st.write(question.text)
+    # if not st.session_state.test_completed:
+    #     question = MOCK_TEST_QUESTIONS[st.session_state.current_question]
+    #     st.write(f"Question {st.session_state.current_question + 1}/{len(MOCK_TEST_QUESTIONS)}:")
+    #     st.write(question.text)
         
-#         # Get previously selected answer for this question, if any
-#         current_answer = st.session_state.answers.get(st.session_state.current_question)
+    #     # Get previously selected answer for this question, if any
+    #     current_answer = st.session_state.answers.get(st.session_state.current_question)
         
-#         # Pre-select the option if previously answered
-#         index = question.options.index(current_answer) if current_answer in question.options else None
+    #     # Pre-select the option if previously answered
+    #     index = question.options.index(current_answer) if current_answer in question.options else None
         
-#         answer = st.radio(
-#             "Select your answer:", 
-#             options=question.options,
-#             index=index,  # Will show previous selection if it exists
-#             key=f"q_{st.session_state.current_question}"
-#         )
+    #     answer = st.radio(
+    #         "Select your answer:", 
+    #         options=question.options,
+    #         index=index,  # Will show previous selection if it exists
+    #         key=f"q_{st.session_state.current_question}"
+    #     )
         
-#         if answer:
-#             st.session_state.answers[st.session_state.current_question] = answer
+    #     if answer:
+    #         st.session_state.answers[st.session_state.current_question] = answer
         
-#         col1, col2 = st.columns(2)
+    #     col1, col2 = st.columns(2)
         
-#         with col1:
-#             if st.session_state.current_question > 0:
-#                 if st.button("Previous"):
-#                     st.session_state.current_question -= 1
-#                     st.rerun()
+    #     with col1:
+    #         if st.session_state.current_question > 0:
+    #             if st.button("Previous"):
+    #                 st.session_state.current_question -= 1
+    #                 st.rerun()
         
-#         with col2:
-#             if st.session_state.current_question < len(MOCK_TEST_QUESTIONS) - 1:
-#                 # Only show Next button if an answer is selected
-#                 if answer:
-#                     if st.button("Next"):
-#                         st.session_state.current_question += 1
-#                         st.rerun()
-#                 else:
-#                     st.button("Next", disabled=True)
-#             else:
-#                 # Only show Submit button if an answer is selected
-#                 if answer:
-#                     if st.button("Submit Test"):
-#                         for i, q in enumerate(MOCK_TEST_QUESTIONS):
-#                             if st.session_state.answers.get(i) == q.correct_answer:
-#                                 st.session_state.score += 1
-#                         st.session_state.test_completed = True
-#                         st.rerun()
-#                 else:
-#                     st.button("Submit Test", disabled=True)
+    #     with col2:
+    #         if st.session_state.current_question < len(MOCK_TEST_QUESTIONS) - 1:
+    #             # Only show Next button if an answer is selected
+    #             if answer:
+    #                 if st.button("Next"):
+    #                     st.session_state.current_question += 1
+    #                     st.rerun()
+    #             else:
+    #                 st.button("Next", disabled=True)
+    #         else:
+    #             # Only show Submit button if an answer is selected
+    #             if answer:
+    #                 if st.button("Submit Test"):
+    #                     for i, q in enumerate(MOCK_TEST_QUESTIONS):
+    #                         if st.session_state.answers.get(i) == q.correct_answer:
+    #                             st.session_state.score += 1
+    #                     st.session_state.test_completed = True
+    #                     st.rerun()
+    #             else:
+    #                 st.button("Submit Test", disabled=True)
     
-#     else:
-#         st.success(f"Test completed! Your score: {st.session_state.score}/{len(MOCK_TEST_QUESTIONS)}")
-#         if st.button("Retake Test"):
-#             st.session_state.current_question = 0
-#             st.session_state.answers = {}
-#             st.session_state.score = 0
-#             st.session_state.test_completed = False
-#             st.rerun()
+    # else:
+    #     st.success(f"Test completed! Your score: {st.session_state.score}/{len(MOCK_TEST_QUESTIONS)}")
+    #     st.markdown("### Review of Your Answers")
+    #     for i, q in enumerate(MOCK_TEST_QUESTIONS):
+    #         st.markdown(f"**Question {i+1}:** {q.text}")
+    #         user_ans = st.session_state.answers.get(i, "No answer selected")
+    #         if user_ans == q.correct_answer:
+    #             st.markdown(f":white_check_mark: **Your Answer:** {user_ans} (Correct)")
+    #         else:
+    #             st.markdown(f":x: **Your Answer:** {user_ans} (Incorrect)")
+    #             st.markdown(f":arrow_forward: **Correct Answer:** {q.correct_answer}")
+    #         st.write("---")
+        
+    #     if st.button("Retake Test"):
+    #         st.session_state.current_question = 0
+    #         st.session_state.answers = {}
+    #         st.session_state.score = 0
+    #         st.session_state.test_completed = False
+    #         st.rerun()
     
     st.sidebar.markdown('<br>' * 3, unsafe_allow_html=True)
     st.sidebar.image("qr.jpeg", width=300)
