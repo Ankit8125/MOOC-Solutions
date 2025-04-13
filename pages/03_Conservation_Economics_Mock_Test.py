@@ -75,7 +75,6 @@ def create_footer():
 
 def main():
     st.title("Conservation Economics Mock Test")
-    st.header("Feature Coming Soon!")
     
     MOCK_TEST_QUESTIONS = [
         # Week 0
