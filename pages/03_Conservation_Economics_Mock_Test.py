@@ -686,7 +686,56 @@ Question(
 ),
 
 #         # Week 11
- 
+Question(
+"An action taken by an uninformed party to induce an informed party to reveal information is known as",
+["signalling", "screening", "informing", "heuristics"],
+"screening"
+),
+Question(
+"The part of actual resources that can be developed profitably in the future are",
+["potential resources", "actual resources", "reserve resources", "stock resources"],
+"reserve resources"
+),
+Question(
+"The limit on the consumption bundles that a consumer can afford is known as",
+["consumption constraint", "budget constraint", "bundle constraint", "affordability constraint"],
+"budget constraint"
+),
+Question(
+"Mental short cut using emotion (gut feeling) to influence the decision is",
+["affect heuristic", "availability heuristic", "effort heuristic", "familiarity heuristic"],
+"affect heuristic"
+),
+Question(
+"Those resources that are currently being used after surveying, quantification and qualification are",
+["potential resources", "actual resources", "reserve resources", "stock resources"],
+"actual resources"
+),
+Question(
+"The change in consumption that results when a price change moves the consumer along a given indifference curve to a point with a new marginal rate of substitution is known as",
+["income effect", "substitution effect", "indifference effect", "budget effect"],
+"substitution effect"
+),
+Question(
+"An inferior good whose demand increases with price is called as",
+["Normal good", "Veblen good", "Giffen good", "Demand good"],
+"Giffen good"
+),
+Question(
+"Which of these is not a property of indifference curves?",
+["Higher indifference curves are preferred to lower ones", "Indifference curves are downward-sloping", "Indifference curves cross at right angles", "Indifference curves are bowed inwards"],
+"Indifference curves cross at right angles"
+),
+Question(
+"An action taken by an informed party to reveal private information to an uninformed party is known as",
+["signalling", "screening", "informing", "heuristics"],
+"signalling"
+),
+Question(
+"Simple strategies or mental processes used to quickly form judgments, make decisions, and find solutions to complex problems is known as",
+["signalling", "screening", "informing", "heuristics"],
+"heuristics"
+),
 #         # Week 12
  
     ]
